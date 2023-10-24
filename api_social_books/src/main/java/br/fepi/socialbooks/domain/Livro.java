@@ -38,6 +38,10 @@ public class Livro {
 	public Livro(String nome) {
 		this.nome = nome;
 	}
+	
+	public Livro() {
+		
+	}
 	public List<Comentario> getComentarios() {
 		return comentarios;
 	}
